@@ -3,7 +3,7 @@ from sklearn import datasets
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-
+ 
 iris = datasets.load_iris()		#create sample (unclassified)
 iris_data  = np.array(iris.data) 
 iris_target= np.full((60,1), -1) 
