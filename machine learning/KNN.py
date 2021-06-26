@@ -39,7 +39,7 @@ def dist(a,b):
         res = np.append(res, np.sqrt( np.square(x0-y0) + np.square(x1-y1) + np.square(x2-y2) + np.square(x3-y3)  )  )
     return res
 
-
+  
 """def Merge_sort(A):
     
     if(A[0]>A[1]):
